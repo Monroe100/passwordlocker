@@ -86,15 +86,15 @@ def main():
         print('\n')
         print('-' * 30)
 
-#     elif short_code == "ls":
-#         if display_users():
-#             print("Here is a list of our users")
-#             print('\n')
-#             for user in display_users():
-#                 print(f"{user.user_name}")
-#                 print('\n')
-#         else:
-#             print("no users available")
+    elif short_code == "ls":
+        if display_users():
+            print("Here is a list of our users")
+            print('\n')
+            for user in display_users():
+                print(f"{user.user_name}")
+                print('\n')
+        else:
+            print("no users available")
 
 
 #     elif short_code == "li":
