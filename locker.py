@@ -45,11 +45,11 @@ class Credentials:
         return True
       return False
 
-#   def save_account(self):
-#     """
-#     save_account saves credentials into credential object.
-#     """
-#     Credentials.credential_list.append(self)
+  def save_account(self):
+    """
+    save_account saves credentials into credential object.
+    """
+    Credentials.credential_list.append(self)
 
 #   def delete_account(self):
 #     """
