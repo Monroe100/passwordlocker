@@ -46,18 +46,18 @@ class TestUser(unittest.TestCase):
         test_user.user_save()
         self.assertEqual(len(userdata.user_list),2)
 
-#     def test_display_users(self):
-#         self.assertEqual(userdata.display_users(),userdata.user_list)
+    def test_display_users(self):
+        self.assertEqual(userdata.display_users(),userdata.user_list)
 
-# class TestCredentials(unittest.TestCase):
-#     """
-#     Test that define test cases for credentials.
-#     """
-#     def setUp(self):
-#         """
-#         set up method to run before each test cases
-#         """
-#         self.new_credential = Credentials("indimi","roses", "lovely")
+class TestCredentials(unittest.TestCase):
+    """
+    Test that define test cases for credentials.
+    """
+    def setUp(self):
+        """
+        set up method to run before each test cases
+        """
+        self.new_credential = Credentials("indimi","roses", "lovely")
 
 #     def test_init(self):
 #         """
