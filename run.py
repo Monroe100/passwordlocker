@@ -97,67 +97,67 @@ def main():
             print("no users available")
 
 
-#     elif short_code == "li":
-#         print("Please Enter your User name and your Password to log in")
-#         print('-' * 30)
-#         user_name = input("User name: ")
-#         password = input("password: ")
-#         sign_in = login_user(user_name,password)
-#         if sign_in == True:
-#             print(f"Hi,{user_name}, What would you like to do?")
-#             while True:
-#                 print('.'* 60)
-#                 short_code = input("Codes: cr - create an account, dp- display the list of your accounts, ex- exit the site \n").lower().strip()
-#                 print('.'* 60)
-#                 if short_code == "cn":
-#                     print("Create new credentials")
-#                     print('*' * 30)
-#                     account_name = input("Account name: ")
-#                     account_username = input("account User Name: ")
-#                     print('.'* 60)
-#                     password_option = input("What do you prefer: (ee-enter existing password) or (gr-generate new password) \n").strip()
-#                     print('.'* 60)
-#                     while True:
-#                         if password_option == "ep":
-#                             account_password = input("Enter your password (minimum 4 characters): ")
-#                             break
-#                         elif password_option == "gp":
-#                             account_password = generate_password()
-#                             break
-#                         else:
-#                             print("Invalid option")
-#                             break
-#                     save_credential(create_credential(account_name,account_username,account_password))
-#                     print('*' * 30)
-#                     print(f"New created account: \n Account:{account_name}\n User Name:{account_username} \n Password: {account_password}")
-#                     print('*' * 30)
+    elif short_code == "li":
+        print("Please Enter your User name and your Password to log in")
+        print('-' * 30)
+        user_name = input("User name: ")
+        password = input("password: ")
+        sign_in = login_user(user_name,password)
+        if sign_in == True:
+            print(f"Hi,{user_name}, What would you like to do?")
+            while True:
+                print('.'* 60)
+                short_code = input("Codes: cr - create an account, dp- display the list of your accounts, ex- exit the site \n").lower().strip()
+                print('.'* 60)
+                if short_code == "cn":
+                    print("Create new credentials")
+                    print('*' * 30)
+                    account_name = input("Account name: ")
+                    account_username = input("account User Name: ")
+                    print('.'* 60)
+                    password_option = input("What do you prefer: (ee-enter existing password) or (gr-generate new password) \n").strip()
+                    print('.'* 60)
+                    while True:
+                        if password_option == "ep":
+                            account_password = input("Enter your password (minimum 4 characters): ")
+                            break
+                        elif password_option == "gp":
+                            account_password = generate_password()
+                            break
+                        else:
+                            print("Invalid option")
+                            break
+                    save_credential(create_credential(account_name,account_username,account_password))
+                    print('*' * 30)
+                    print(f"New created account: \n Account:{account_name}\n User Name:{account_username} \n Password: {account_password}")
+                    print('*' * 30)
 
-#                 elif short_code == "dp":
-#                     if display_accounts():
-#                         print("Here is your accounts: ")
+                elif short_code == "dp":
+                    if display_accounts():
+                        print("Here is your accounts: ")
 
-#                         print('#' * 30)
-#                         for account in display_accounts():
-#                             print(f" account:{account.account_name} \n User Name:{account_username}\n Password:{account_password}")
-#                             print('_'* 30)
-#                         print('#' * 30)
-#                     else:
-#                         print("sorry......you dont have any accounts created")
+                        print('#' * 30)
+                        for account in display_accounts():
+                            print(f" account:{account.account_name} \n User Name:{account_username}\n Password:{account_password}")
+                            print('_'* 30)
+                        print('#' * 30)
+                    else:
+                        print("sorry......you dont have any accounts created")
 
-#                 elif short_code == "ex":
-#                     print("Welcome back again")
-#                     break
-#                 else:
-#                     print("Invalid Choice")
+                elif short_code == "ex":
+                    print("Welcome back again")
+                    break
+                else:
+                    print("Invalid Choice")
 
 
 
-# #                break
+#                break
 
-#         else:
-#             print("You dont have an account.Please create an account ")
+        else:
+            print("You dont have an account.Please create an account ")
 
-# #    break
+#    break
 
-#   if __name__ == '__main__':
-#     main()
+  if __name__ == '__main__':
+    main()
