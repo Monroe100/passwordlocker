@@ -60,13 +60,13 @@ def generate_password():
 
   return password_gen
 
-# def main():
-#   print("Welcome to passwordlocker")
-#   print('\n')
-#   while True:
-#     print('.'* 60)
-#     short_code = input("Use this short codes: su-create/sign up a new user account, ls-to display users, li-to log in (if you are done), ex - exit from password locker \n").lower().strip()
-#     print('.'* 60)
+def main():
+  print("Welcome to passwordlocker")
+  print('\n')
+  while True:
+    print('.'* 60)
+    short_code = input("Use this short codes: su-create/sign up a new user account, ls-to display users, li-to log in (if you are done), ex - exit from password locker \n").lower().strip()
+    print('.'* 60)
 
 #     if short_code == "ex":
 #         print("Thank you for choosing us and welcome !!")
