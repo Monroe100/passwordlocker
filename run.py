@@ -19,13 +19,13 @@ def display_users():
    return user.display_users()
 
 
-# def login_user(user_name,password):
-#   """
-#   function that checks whether a user exist and then logs the user in
+def login_user(user_name,password):
+  """
+  function that checks whether a user exist and then logs the user in
 
-#   """
-#   check_user_exist = Credentials.check_user_exist(user_name,password)
-#   return check_user_exist
+  """
+  check_user_exist = Credentials.check_user_exist(user_name,password)
+  return check_user_exist
 
 # def create_credential(account_name,account_username, account_password):
 #   """
