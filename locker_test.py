@@ -24,11 +24,11 @@ class TestUser(unittest.TestCase):
         self.assertEqual(self.new_user.password, "babygirl")
         self.assertEqual(self.new_user.email, "monroe23@gmail.com")
 
-#     def tearDown(self):
-#         """
-#         Method that cleans up after each case has run.
-#         """
-#         userdata.user_list = []
+    def tearDown(self):
+        """
+        Method that cleans up after each case has run.
+        """
+        userdata.user_list = []
 
 #     def test_user_save(self):
 #         """
