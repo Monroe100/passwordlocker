@@ -40,17 +40,17 @@ def save_credential(credential):
   """
   credential.save_account()
 
-# def delete_account(credential):
-#   """
-#   Function to delete a credential.
-#   """
-#   credential.delete_account()
+def delete_account(credential):
+  """
+  Function to delete a credential.
+  """
+  credential.delete_account()
 
-# def display_accounts():
-#   """
-#   Function that returns all the saved credential.
-#   """
-#   return Credentials.display_accounts()
+def display_accounts():
+  """
+  Function that returns all the saved credential.
+  """
+  return Credentials.display_accounts()
 
 # def generate_password():
 #   """
