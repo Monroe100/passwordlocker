@@ -15,14 +15,14 @@ class userdata:
     self.password = password
     self.email = email
 
-#   def user_save(self):
-#     """
-#     saves user object into user object.
-#     """
-#     userdata.user_list.append(self)
-#   @classmethod
-#   def display_users(cls):
-#     return cls.user_list
+  def user_save(self):
+    """
+    saves user object into user object.
+    """
+    userdata.user_list.append(self)
+  @classmethod
+  def display_users(cls):
+    return cls.user_list
 
 
 # class Credentials:
