@@ -30,21 +30,21 @@ class TestUser(unittest.TestCase):
         """
         userdata.user_list = []
 
-#     def test_user_save(self):
-#         """
-#         Test case to test if the user object is saved into the user_list.
-#         """
-#         self.new_user.user_save()
+    def test_user_save(self):
+        """
+        Test case to test if the user object is saved into the user_list.
+        """
+        self.new_user.user_save()
 
-#         self.assertEqual(len(userdata.user_list),1)
-#     def test_save_multiple_user(self):
-#         """
-#         Test to check whether we can save multiple user objects.
-#         """
-#         self.new_user.user_save()
-#         test_user = User("kajuju","flower","kajuju@gmail.com")
-#         test_user.user_save()
-#         self.assertEqual(len(userdata.user_list),2)
+        self.assertEqual(len(userdata.user_list),1)
+    def test_save_multiple_user(self):
+        """
+        Test to check whether we can save multiple user objects.
+        """
+        self.new_user.user_save()
+        test_user = User("kajuju","flower","kajuju@gmail.com")
+        test_user.user_save()
+        self.assertEqual(len(userdata.user_list),2)
 
 #     def test_display_users(self):
 #         self.assertEqual(userdata.display_users(),userdata.user_list)
