@@ -71,39 +71,39 @@ class TestCredentials(unittest.TestCase):
     def tearDown(self):
         Credentials.credential_list = []
 
-#     def test_save_account(self):
-#         """
-#         Test case to test if the credential object is saved in to credential_list.
-#         """
-#         self.new_credential.save_account()
-#         self.assertEqual(len(Credentials.credential_list), 1)
+    def test_save_account(self):
+        """
+        Test case to test if the credential object is saved in to credential_list.
+        """
+        self.new_credential.save_account()
+        self.assertEqual(len(Credentials.credential_list), 1)
 
-#     def test_save_multiple_account(self):
-#         """
-#         Test case to test if we can save multiple credential objects.
-#         """
-#         self.new_credential.save_account()
-#         test_account = Credentials("indimi","roses","kajuju")
-#         test_account.save_account()
-#         self.assertEqual(len(Credentials.credential_list),2)
+    def test_save_multiple_account(self):
+        """
+        Test case to test if we can save multiple credential objects.
+        """
+        self.new_credential.save_account()
+        test_account = Credentials("indimi","roses","kajuju")
+        test_account.save_account()
+        self.assertEqual(len(Credentials.credential_list),2)
 
-#     def test_delete_account(self):
-#         """
-#         Test case to test if we can remove an account from credential list.
-#         """
-#         self.new_credential.save_account()
-#         test_credential = Credentials("roses","indimi","kajuju")
-#         test_credential.save_account()
+    def test_delete_account(self):
+        """
+        Test case to test if we can remove an account from credential list.
+        """
+        self.new_credential.save_account()
+        test_credential = Credentials("roses","indimi","kajuju")
+        test_credential.save_account()
 
-#         self.new_credential.delete_account()
+        self.new_credential.delete_account()
 
-#         self.assertEqual(len(Credentials.credential_list),1)
+        self.assertEqual(len(Credentials.credential_list),1)
 
-#     def test_display_accounts(self):
-#         """
-#         Test case to test if lists of accounts are displayed.
-#         """
-#         self.assertEqual(Credentials.display_accounts(),Credentials.credential_list)
+    def test_display_accounts(self):
+        """
+        Test case to test if lists of accounts are displayed.
+        """
+        self.assertEqual(Credentials.display_accounts(),Credentials.credential_list)
 
-# if __name__ == '__main__':
-#   unittest.main
+if __name__ == '__main__':
+  unittest.main
