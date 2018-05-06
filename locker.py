@@ -29,12 +29,12 @@ class Credentials:
   """
   Class that generates new instances of  a credential object.
   """
-#   global user_list
-#   credential_list =[]
-#   def __init__(self, account_name, account_username, account_password):
-#     self. account_name = account_name
-#     self.account_username = account_username
-#     self.account_password = account_password
+  global user_list
+  credential_list =[]
+  def __init__(self, account_name, account_username, account_password):
+    self. account_name = account_name
+    self.account_username = account_username
+    self.account_password = account_password
 #   @classmethod
 #   def check_user_exist(cls,user_name,password):
 #     """
