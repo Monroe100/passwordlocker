@@ -79,12 +79,12 @@ def main():
         password = input("Password: ")
         email = input("Email: ")
 
-#         save_user(create_user(user_name,password,email))
-#         print('\n')
+        save_user(create_user(user_name,password,email))
+        print('\n')
 
-#         print(f"Welcome,{user_name} your account has been created succesfully")
-#         print('\n')
-#         print('-' * 30)
+        print(f"Welcome,{user_name} your account has been created succesfully")
+        print('\n')
+        print('-' * 30)
 
 #     elif short_code == "ls":
 #         if display_users():
