@@ -59,17 +59,17 @@ class TestCredentials(unittest.TestCase):
         """
         self.new_credential = Credentials("indimi","roses", "lovely")
 
-#     def test_init(self):
-#         """
-#         Test case to test if the object is initialized properly.
-#         """
+    def test_init(self):
+        """
+        Test case to test if the object is initialized properly.
+        """
 
-#         self.assertEqual(self.new_credential.account_name,"indimi")
-#         self.assertEqual(self.new_credential.account_username,"roses")
-#         self.assertEqual(self.new_credential.account_password,"lovely")
+        self.assertEqual(self.new_credential.account_name,"indimi")
+        self.assertEqual(self.new_credential.account_username,"roses")
+        self.assertEqual(self.new_credential.account_password,"lovely")
 
-#     def tearDown(self):
-#         Credentials.credential_list = []
+    def tearDown(self):
+        Credentials.credential_list = []
 
 #     def test_save_account(self):
 #         """
