@@ -68,16 +68,16 @@ def main():
     short_code = input("Use this short codes: su-create/sign up a new user account, ls-to display users, li-to log in (if you are done), ex - exit from password locker \n").lower().strip()
     print('.'* 60)
 
-#     if short_code == "ex":
-#         print("Thank you for choosing us and welcome !!")
-#         break
+    if short_code == "ex":
+        print("Thank you for choosing us and welcome !!")
+        break
 
-#     elif short_code == "su":
-#         print("Sign Up")
-#         print('-' * 30)
-#         user_name = input("User_name: ")
-#         password = input("Password: ")
-#         email = input("Email: ")
+    elif short_code == "su":
+        print("Sign Up")
+        print('-' * 30)
+        user_name = input("User_name: ")
+        password = input("Password: ")
+        email = input("Email: ")
 
 #         save_user(create_user(user_name,password,email))
 #         print('\n')
