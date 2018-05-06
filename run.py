@@ -52,13 +52,13 @@ def display_accounts():
   """
   return Credentials.display_accounts()
 
-# def generate_password():
-#   """
-#   Function that generates  a random password.
-#   """
-#   password_gen = Credentials.generate_password()
+def generate_password():
+  """
+  Function that generates  a random password.
+  """
+  password_gen = Credentials.generate_password()
 
-#   return password_gen
+  return password_gen
 
 # def main():
 #   print("Welcome to passwordlocker")
