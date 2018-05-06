@@ -155,7 +155,7 @@ def main():
 #                break
 
         else:
-            print("You dont have an account.Please create an account with us")
+            print("You dont have an account.Please create an account ")
 
 #    break
 
