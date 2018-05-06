@@ -51,11 +51,11 @@ class Credentials:
     """
     Credentials.credential_list.append(self)
 
-#   def delete_account(self):
-#     """
-#     delete_account method removes a saved cretential from credential list.
-#     """
-#     Credentials.credential_list.remove(self)
+  def delete_account(self):
+    """
+    delete_account method removes a saved cretential from credential list.
+    """
+    Credentials.credential_list.remove(self)
 
 #   @classmethod
 #   def display_accounts(cls):
