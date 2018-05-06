@@ -25,10 +25,10 @@ class userdata:
     return cls.user_list
 
 
-# class Credentials:
-#   """
-#   Class that generates new instances of  a credential object.
-#   """
+class Credentials:
+  """
+  Class that generates new instances of  a credential object.
+  """
 #   global user_list
 #   credential_list =[]
 #   def __init__(self, account_name, account_username, account_password):
