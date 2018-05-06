@@ -57,10 +57,10 @@ class Credentials:
     """
     Credentials.credential_list.remove(self)
 
-#   @classmethod
-#   def display_accounts(cls):
-#     """
-#     Method that returns the credential list.
-#     """
-#     return cls.credential_list
+  @classmethod
+  def display_accounts(cls):
+    """
+    Method that returns the credential list.
+    """
+    return cls.credential_list
   
