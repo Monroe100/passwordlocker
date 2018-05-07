@@ -7,18 +7,21 @@ Description
 This app is able to display,delete,generate and save contacts.
 
 User Specifications
+---
 *Able to create an account with user details.
 *Save users Passwords and display them.
 *Generate a password for a new user.
+
 Technologies Used
 ---
 {python3.6}
 
 Support and contact details
-
+----
 {Email:michelle1hunnid@gmail.com} 
 
 MIT License
+---
 Copyright (c) [2018] [Michelle Claire]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
