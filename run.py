@@ -1,4 +1,4 @@
-!/usr/bin/env python3.6
+#!/usr/bin/env python3.6
 import random
 
 from locker import userdata, Credentials
@@ -159,5 +159,6 @@ def main():
 
 #    break
 
-  if __name__ == '__main__':
+if __name__ == '__main__':
+    print("hey")
     main()
