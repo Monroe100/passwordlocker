@@ -8,9 +8,9 @@ This app is able to display,delete,generate and save contacts.
 
 User Specifications
 ---
-*Able to create an account with user details.
-*Save users Passwords and display them.
-*Generate a password for a new user.
+* Able to create an account with user details.
+* Save users Passwords and display them.
+* Generate a password for a new user.
 
 Technologies Used
 ---
