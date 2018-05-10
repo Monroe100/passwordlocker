@@ -7,7 +7,7 @@ def create_user(user_name, password, email):
   """
   Function that is used to create a new user.
   """
-  new_user = User(user_name,password, email)
+  new_user = userdata(user_name,password, email)
   return new_user
 
 def save_user(user):
@@ -16,7 +16,7 @@ def save_user(user):
   """
   user.user_save()
 def display_users():
-   return user.display_users()
+   return userdata.display_users()
 
 
 def login_user(user_name,password):
@@ -109,7 +109,7 @@ def main():
                 print('.'* 60)
                 short_code = input("Codes: cr - create an account, dp- display the list of your accounts, ex- exit the site \n").lower().strip()
                 print('.'* 60)
-                if short_code == "cn":
+                if short_code == "cr":
                     print("Create new credentials")
                     print('*' * 30)
                     account_name = input("Account name: ")
@@ -118,7 +118,7 @@ def main():
                     password_option = input("What do you prefer: (ee-enter existing password) or (gr-generate new password) \n").strip()
                     print('.'* 60)
                     while True:
-                        if password_option == "ep":
+                        if password_option == "ee":
                             account_password = input("Enter your password (minimum 4 characters): ")
                             break
                         elif password_option == "gp":
@@ -160,5 +160,5 @@ def main():
 #    break
 
 if __name__ == '__main__':
-    print("hey")
+    
     main()

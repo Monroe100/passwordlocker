@@ -42,7 +42,7 @@ class TestUser(unittest.TestCase):
         Test to check whether we can save multiple user objects.
         """
         self.new_user.user_save()
-        test_user = User("kajuju","flower","kajuju@gmail.com")
+        test_user = userdata("kajuju","flower","kajuju@gmail.com")
         test_user.user_save()
         self.assertEqual(len(userdata.user_list),2)
 
