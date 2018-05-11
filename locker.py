@@ -63,4 +63,15 @@ class Credentials:
     Method that returns the credential list.
     """
     return cls.credential_list
-  
+  @classmethod
+    def generate_password(password):
+
+        '''
+        Method to generate a new password
+        '''
+
+
+        
+        account_password = "".join(random.sample(string, int(password)))
+        password = account_password
+        return password
